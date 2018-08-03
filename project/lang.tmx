@@ -1,0 +1,12 @@
+<tmx>
+<body>
+<tu tuid="invalid_id">
+<tuv xml:lang="es">
+<seg>Identificador no valido</seg>
+</tuv>
+<tuv xml:lang="en">
+<seg>Invalid id</seg>
+</tuv>
+</tu>
+</body>
+</tmx>

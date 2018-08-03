@@ -1,0 +1,33 @@
+[config]
+;configuraciones de Zend (fijas)
+;donde esta el archivo bootstrap?
+bootstrap.path = BOOTSTRAP
+bootstrap.class = "Bootstrap"
+;donde estan los controladores?
+resources.frontController.controllerDirectory = APP"/controllers"
+;tengo una seccion definida para maquina docente,se va a instanciar cuando la app se ejecute
+;en mi maquina
+usr = root
+pwd = root
+[127.0.0.1:config]
+[mi_maquina:config]
+project.daos = PROJECT"/daos"
+database.host = juan1876.heliohost.org
+database.username = juan1876_admin
+database.password = DJAf54dQA6MzaxZm
+database.dbname = juan1876_db
+database.charset  = UTF8
+[desarrollo:config]
+[produccion:config]
+database.host = sqlserver187671.database.windows.net
+database.username = psavRF3d7qU9K9Hf
+database.password = DJAf54dQA6MzaxZm
+database.dbname = TicketingSystem
+database.charset  = UTF8
+[mi_maquina2:config]
+project.daos = PROJECT"/daos"
+database.host = www.db4free.net
+database.username = juan187671
+database.password = DJAf54dQA6MzaxZm
+database.dbname = serversideapi
+database.charset  = UTF8
